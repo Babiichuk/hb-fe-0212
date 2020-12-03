@@ -4,6 +4,6 @@
 
 #### Назначение репозитория
 * Изучение технологии Git
-* [Изучение HTML/SCC](http://htmlbook.ru/)
+* [Изучение HTML/SCC](http://htmlbook.ru/){:target="_blank"}
 * Изучение Javascript
  
