@@ -11,7 +11,7 @@
         <th colspan="2">Imagination is more important than knowledge.<br> knowledge is limited. imagination encircles the world</th>
       </tr>
       <tr>
-        <td colspan="2"><h3>Привет мир!</h3>
+        <td colspan="2"><h1>Привет мир!</h1>
         <p>Меня зовут Игорь Бабийчук, так же у меня есть второе имя Георгий.</p></td>
       </tr>
       <tr>
@@ -24,11 +24,58 @@
         <td colspan="2"><p>Всю сознательную жизнь работаю в IT в домене Security, но так как по психотипу мне больше нравиться что то создавать чем кошмарить людей то я пришел на курс фронтенд разработки.</p></td>
       </tr>
       <tr>
-        <td colspan="3" style="text-align:right">Babiichuk 2020</td><!-- Задаем количество ячеек по горизонтали для объединения-->
+        <td colspan="3" style="text-align:right">Babiichuk 2020</td>
       </tr>
       <tr>
-        <td colspan="3" style="text-align:right">Babiichuk 2020</td><!-- Задаем количество ячеек по горизонтали для объединения-->
+        <td colspan="3" style="text-align:left">
+          <h2>Расскажите о себе</h2>
+          <form>
+            <fieldset>
+              <legend>Personal information</legend>
+              <p> <label for="surname">Surname:</label><input type="text" name="surname" > </p>
+              <p> <label for="name">Name:<input type="text" name="name" > </p>
+              <p> <label for="age">How old are you?<input type="number" min="8" max="180" step="1" value="12"> </p>
+              <p> <label for="birthdate">Full date of birth:<input type="date" name="birthdate" > </p>
+              <p> <label for="accept">I accept the term of the agreement:<input type="checkbox" name="accept"> </p>
+            </fieldset><br>
+            <fieldset>
+              <legend>Registration</legend>
+              <p> <label for="mail">E-mail:</label> <input type="email" name="mail" placeholder="email@example.com"> </p>
+              <p> <label for="pass">Password:</label> <input type="password" name="pass"> </p>
+            </fieldset><br>
+          </fieldset>
+          <fieldset>
+            <legend>An interesting fact about you!</legend>
+            <p> <label for="animallove">Do you love cats?</label> <input type="radio" name="animallove" >Yes<input type="radio" name="animallove" >No</p>
+            <p> <label for="color">What is your favorite color?</label> <input type="color" name="color"> </p>
+            <p> <label for="sleeptime">What time do you go to bed?</label> <input type="datetime-local" name="sleeptime"> </p>
+            <p> <label for="cars">What is your favorite brand of cars?</label>
+              <select size="3" name="cars" >
+              <option value="bmw">BMW</option>
+              <option value="audi">Audi</option>
+              <option value="lada">Lada</option>
+            </select></p>
+            <p> <label for="rate">How do you rate our work?</label> <input type="range" name="rate" min="0" max="10" value="0"> </p>
+          </fieldset><br>
+          <fieldset>
+            <legend>Additional info:</legend>
+            <p> <label for="feedback">Comments:</label>
+              <textarea name="tarea" ></textarea></p>
+              <p> <label for="us">Would you recommend us?</label>
+                <select size="1" name="us" >
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+                </select></p>
+          </fieldset><br>
+          </form>
+          <input  type="submit" value="Submit">
+        </td>
       </tr>
-    </table>
+      </table>
+      <div class="form_section">
+        <section>
+
+        </section>
+      </div>
   </body>
 </html>
