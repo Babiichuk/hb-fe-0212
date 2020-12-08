@@ -1,0 +1,114 @@
+body{
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.container{
+  width: 50em;
+  height: 40em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tablegrid{
+  width: 100%;
+  height:100%;
+}
+
+#logo{
+  background-color: #1E90FF;
+  width: 30%;
+  height: 30%;
+}
+
+#menu{
+background-color: #00CED1;
+}
+
+#newsfeed{
+overflow: hidden;
+vertical-align: top;
+background-color: #00CED1;
+
+}
+
+#content{
+
+background-color: #40E0D0;
+}
+
+#navbar{
+  background-color: #1E90FF;
+  width: 25%;
+}
+
+#footer{
+  background-color: #1E90FF;
+  height: 10%;
+}
+
+#logoimage{
+  width: 100%;
+}
+
+#firstrow span{
+    padding-left: 1.5em;
+  margin: 5px;
+  color: #FFFFFF;
+  font-size: 2em;
+}
+
+#secondrow span{
+  padding-right: 1.5em;
+  margin: 5px;
+  color: #FFFFFF;
+  font-size: 2em;
+  margin-left: auto;
+}
+#firstrow {
+    float: left;
+}
+#secondrow {
+    float: right;
+}
+
+
+#footer p{
+  color: #FFFFFF;
+  padding-left: 0.5em;
+  margin: 5px;
+}
+#navbar p{
+  margin: 0;
+  line-height: 2.5em;
+  color: #FFFFFF;
+}
+
+h1{
+
+  margin-left: 6px;
+  color: #FFFFFF;
+  font-size: 1.5em;
+  margin-left: 5px;
+
+}
+#content p{
+  color: #FFFFFF;
+  padding-left: 0.5em;
+  margin-top: 3em;
+
+
+}
+label{
+  color: #FFFFFF;
+  padding-left: 1em;
+  margin-bottom: 80px;
+}
+textarea{
+  margin-top: 4em;
+  height: 270px;
+}
+.opinion{
+  overflow: hidden;
+  position: relative;
+}
